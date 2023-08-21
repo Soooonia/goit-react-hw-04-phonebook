@@ -29,6 +29,7 @@ const contactsList = [
             name,
             number,
           };
+          
           contacts.find(option => option.name === contact.name)
             ? alert(`${contact.name} is already in contacts`)
             : setContacts(prevState => [
